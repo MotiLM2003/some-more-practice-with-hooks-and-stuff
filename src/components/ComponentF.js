@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { CountContext } from '../App';
 
-const ComponentA = () => {
+const ComponentF = () => {
   const countContext = useContext(CountContext);
   return (
     <div>
-      Component A
+      Component F
       <button onClick={() => countContext.dispatch('increment')}>
         Increment
       </button>
@@ -18,4 +18,4 @@ const ComponentA = () => {
   );
 };
 
-export default ComponentA;
+export default ComponentF;
