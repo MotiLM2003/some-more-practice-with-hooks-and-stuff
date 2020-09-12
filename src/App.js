@@ -15,6 +15,8 @@ import CounterThree from './components/counterThree';
 import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponenetB';
 import ComponentC from './components/ComponentC';
+import DataFetchingOne from './components/DataFetchingOne';
+import DataFatchingReducer from './components/DataFatchingReducer';
 
 export const CountContext = React.createContext();
 
@@ -50,12 +52,14 @@ const App = () => {
       {/* <IntervalContainer /> */}
       {/* <DataFetching /> */}
       {/* <CounterThree /> */}
-      <h1>Count: {count}</h1>
+      {/* <h1>Count: {count}</h1>
       <CountContext.Provider value={{ count, dispatch }}>
         <ComponentA />
         <ComponentB />
         <ComponentC />
-      </CountContext.Provider>
+      </CountContext.Provider> */}
+      {/* <DataFetchingOne /> */}
+      <DataFatchingReducer />
     </div>
   );
 };
