@@ -9,6 +9,9 @@ import DisplayMouseEvent from './components/DisplayMouseEvent';
 import IntervalCounter from './components/IntervalCounter';
 import IntervalContainer from './components/intervalContainer';
 import DataFetching from './components/DataFetching';
+import CounterOne from './components/Counter1';
+import CounterTwo from './components/CounterTwo';
+import CounterThree from './components/counterThree';
 
 const App = () => {
   return (
@@ -21,7 +24,9 @@ const App = () => {
       {/* <HookCounterEffect /> */}
       {/* <DisplayMouseEvent /> */}
       {/* <IntervalContainer /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+
+      <CounterThree />
     </div>
   );
 };
